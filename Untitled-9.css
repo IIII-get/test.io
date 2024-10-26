@@ -1,0 +1,36 @@
+<style>
+    body {
+        background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Мягкий градиент для фона */
+        font-family: 'Arial', sans-serif;
+        color: #333; /* Темный цвет текста для хорошей читаемости */
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    button {
+        background: linear-gradient(to right, #add8e6, #87ceeb); /* Градиент для кнопок */
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 20px 40px;
+        font-size: 18px;
+        margin: 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для кнопок */
+    }
+    button:hover {
+        background: linear-gradient(to right, #87ceeb, #add8e6); /* Изменение градиента при наведении */
+        transform: translateY(-2px); /* Легкий подъем кнопки при наведении */
+    }
+    @media (max-width: 600px) {
+        button {
+            width: 100%; /* Кнопки занимают всю ширину на мобильных устройствах */
+            font-size: 16px; /* Уменьшение размера шрифта на мобильных */
+        }
+    }
+</style>
